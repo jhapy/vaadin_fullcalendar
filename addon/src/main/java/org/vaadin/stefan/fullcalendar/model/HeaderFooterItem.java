@@ -18,22 +18,23 @@ package org.vaadin.stefan.fullcalendar.model;
 
 import lombok.Getter;
 
-/**
- * A predefined enum of available items for the header / footer parts.
- */
+/** A predefined enum of available items for the header / footer parts. */
 @Getter
 public enum HeaderFooterItem {
-	TITLE("title"),
-	
-	BUTTON_PREVIOUS("prev"),
-	BUTTON_NEXT("next"),
-	BUTTON_PREVIOUS_YEAR("prevYear"),
-	BUTTON_NEXT_YEAR("nextYear"),
-	BUTTON_TODAY("today");
-	
-	private final String code;
-	
-	private HeaderFooterItem(String code) {
-		this.code = code;
-	}
+  TITLE("title"),
+
+  BUTTON_PREVIOUS("prev"),
+  BUTTON_NEXT("next"),
+  BUTTON_PREVIOUS_YEAR("prevYear"),
+  BUTTON_NEXT_YEAR("nextYear"),
+  BUTTON_TODAY("today"),
+  BUTTON_RESSOURCE_TIMELINE_DAY("resourceTimelineDay"),
+  BUTTON_RESSOURCE_TIMELINE_WEEK("resourceTimelineWeek"),
+  BUTTON_RESSOURCE_TIMELINE_MONTH("resourceTimelineMonth");
+
+  private final String code;
+
+  private HeaderFooterItem(String code) {
+    this.code = code;
+  }
 }

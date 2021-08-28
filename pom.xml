@@ -5,11 +5,11 @@
 
     <groupId>org.vaadin.stefan</groupId>
     <artifactId>fullcalendar-parent</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.3-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <java.version>16</java.version>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -31,5 +31,3 @@
     </modules>
 
 </project>
-
-
