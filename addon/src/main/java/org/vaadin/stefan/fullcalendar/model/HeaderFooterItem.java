@@ -30,7 +30,11 @@ public enum HeaderFooterItem {
   BUTTON_TODAY("today"),
   BUTTON_RESSOURCE_TIMELINE_DAY("resourceTimelineDay"),
   BUTTON_RESSOURCE_TIMELINE_WEEK("resourceTimelineWeek"),
-  BUTTON_RESSOURCE_TIMELINE_MONTH("resourceTimelineMonth");
+  BUTTON_RESSOURCE_TIMELINE_MONTH("resourceTimelineMonth"),
+  BUTTON_RESSOURCE_TIME_GRID_DAY("resourceTimeGridDay"),
+  BUTTON_LIST_DAY("listDay"),
+  BUTTON_LIST_WEEK("listWeek"),
+  BUTTON_LIST_MONTH("listMonth");
 
   private final String code;
 
